@@ -13,4 +13,4 @@ rootProject.name = "Nanaica"
 for (name in listOf("Nanaica-API", "Nanaica-Server")) {
     val projName = name.lowercase(Locale.ENGLISH)
     include(projName)
-    findProject(":$projName")!!.projectDir = file(name)
+    findProject(":$projName")!!.projectDir = file(name)}
